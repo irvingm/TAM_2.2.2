@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ittepic.edu.mx.tam_22.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID persona"
+        android:id="@+id/identificador"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NOMBRE"
+        android:id="@+id/nombre"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DOMICILIO"
+        android:id="@+id/domicilio"/>
+
+    <Button
+        android:id="@+id/btninsertar"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="Insertar" />
+
+    <Button
+        android:id="@+id/btnconsultar"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="Consultar" />
+
+    <Button
+        android:id="@+id/btneliminar"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/btnactualizar"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="Actualizar" />
+
+
+</LinearLayout>
